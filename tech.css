@@ -1,0 +1,26 @@
+
+.image-container {
+    height: 240px;
+}
+
+.card-container-top {
+    text-align: center;
+    padding: 12px;
+}
+
+.heading {
+    font-family: "Bree Serif";
+    font-size: 43px;
+
+}
+
+.card-paragraph {
+    font-family: "Bree Serif";
+    font-size: 15px;
+    color: #616e7c;
+}
+
+.image-size-bottom {
+    height: 123px;
+    width: 140px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel = "stylesheet" href = "tech.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhomepage">
+        <div class="bg-container">
+        </div>
+        <h1 class="main-heading">My Projects</h1>
+        <p class="main-paragraph ">These are a few of my static website project that I have developed using HTML,CSS and BOOTSTARP </p>
+
+        <div class="card-container">
+            <div class=" d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="image-size" onclick="display('sectionsai1')" />
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" class="image-size" onclick="display('sectionsai2')" />
+            </div>
+            <div class=" d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" class="image-size" onclick="display('sectionsai3')" />
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" class="image-size" onclick="display('sectionsai4')" />
+            </div>
+
+        </div>
+    </div>
+    <div id="sectionsai1">
+        <div class="bg-container-sai d-flex flex-column justify-content-end">
+            <div class="card">
+                <div>
+                    <h1 class="main-heading-sai">Adavnced Technologies</h1>
+                    <p class="paragraph-sai">Machinery and equipment developed from the application of scientific Knowledge </p>
+                    <button class="learn-more-button-sai ">learn more</button>
+                    <button class="save-draft-button-sai" onclick="display('sectionhomepage')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionsai2">
+        <div class="bg-top-section-pavan">
+            <h1 class="top-section-heading-pavan"> celebrate diwali with your friends</h1>
+        </div>
+        <div class="bottom-section-pavan">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="card-item-pavan">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" class="card-image-pavan" />
+                    <h1 class="card-heading-pavan">Diwali lamp</h1>
+                    <p class="card-price-pavan">Rs 359 only</p>
+                </div>
+                <div class="card-item-pavan ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png" class="card-image-pavan" />
+                    <h1 class="card-heading-pavan">Diya</h1>
+                    <p class="card-price-pavan">Rs 100only</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="card-item-pavan ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png" class="card-image-pavan" />
+                    <h1 class="card-heading-pavan">sparkler</h1>
+                    <p class="card-price-pavan">Rs 99only</p>
+                </div>
+
+                <div class="card-item-pavan ">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png" class="card-image-pavan" />
+                    <h1 class="card-heading-pavan">cracker</h1>
+                    <p class="card-price-pavan">Rs 150only</p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionhomepage')"> Back</button>
+
+        </div>
+    </div>
+
+    <div id="sectionsai3">
+        <div class="bg-container-x d-flex flex-column justify-content-end">
+            <div class="card-x">
+                <h1 class="main-haeding-x">Happy Meals</h1>
+                <p class="paragraph-x">Discover the best foods over the 1,000 resturants</p>
+                <button class="button-x" onclick="display('sectionhomepage')">Back</button>
+            </div>
+        </div>
+
+        <div id="sectionsai4">
+            <div class="bg-container-y d-flex flex-column justify-content-end">
+                <div class="news-card-container-y">
+                    <p class="news-card-conatiner-paragraph-y">NEWS OF THE DAY</p>
+                    <h1 class="news-card-container-heading-y">iB cricket announces world's first virtual reality cricket league</h1>
+                    <p class="news-card-container-description-y ">Ib cricket and viu together have announced the world's first virtual reality cricket league feature 13 international cricketers, who will be competeting against each other for the iB cricketer super over league title in mumbai. Iconic cricketer's like virender sehwag, suresh raina , bredon McCullum will be competeting in the league</p>
+
+                    <button class="button-y" onclick="dispaly('sectionhomepage')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
